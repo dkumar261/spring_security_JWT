@@ -1,5 +1,8 @@
 package com.niit.springjwt.repository;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.springframework.stereotype.Repository;
 
 import com.niit.springjwt.model.User;
@@ -8,12 +11,18 @@ import com.niit.springjwt.model.User;
 public class UserRepository {
 
 	private User findByUserName(String username) {
-		
-		return null;
+		Map<String,User>userMap = buildUser();
+		User user = userMap.get(username);
+		return user;
 	}
 	
-	public void buildUser() {
+	public static Map<String,User> buildUser() {
 		User user = new User();
-		
+		user.setId(1);
+		user.setName("dinesh");
+		user.setPassword("password");
+		Map<String,User>usersMap = new HashMap<>();
+		usersMap.put(user.getName(), user);
+		return usersMap;
 	}
 }
