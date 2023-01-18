@@ -1,4 +1,4 @@
-package com.niit.springjwt.model;
+package com.security.model;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -16,6 +16,7 @@ public class User implements UserDetails{
 	private Integer id;
 	private String password;
 	private String name;
+	
 	private boolean enabled;
 	
 	private List<Role>roles;

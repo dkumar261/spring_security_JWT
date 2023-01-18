@@ -1,4 +1,4 @@
-package com.niit.springjwt.config;
+package com.security.config;
 
 import java.util.Arrays;
 import java.util.List;
@@ -19,7 +19,7 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 
-import com.niit.springjwt.service.UserService;
+import com.security.service.UserService;
 
 @Configuration
 @EnableAuthorizationServer

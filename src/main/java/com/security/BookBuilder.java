@@ -1,6 +1,6 @@
-package com.niit.springjwt;
+package com.security;
 
-import com.niit.springjwt.model.Book;
+import com.security.model.Book;
 
 public class BookBuilder {
 

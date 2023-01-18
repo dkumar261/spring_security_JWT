@@ -1,4 +1,4 @@
-package com.niit.springjwt.model;
+package com.security.model;
 
 
 public class Book {

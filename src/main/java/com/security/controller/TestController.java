@@ -1,10 +1,10 @@
-package com.niit.springjwt.controller;
+package com.security.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.niit.springjwt.BookBuilder;
-import com.niit.springjwt.model.Book;
+import com.security.BookBuilder;
+import com.security.model.Book;
 
 @RestController
 public class TestController {

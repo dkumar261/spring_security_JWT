@@ -1,4 +1,4 @@
-package com.niit.springjwt.service;
+package com.security.service;
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

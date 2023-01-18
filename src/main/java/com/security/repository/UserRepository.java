@@ -1,11 +1,11 @@
-package com.niit.springjwt.repository;
+package com.security.repository;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import org.springframework.stereotype.Repository;
 
-import com.niit.springjwt.model.User;
+import com.security.model.User;
 
 @Repository
 public class UserRepository {
